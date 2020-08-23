@@ -26,7 +26,7 @@ def Entry():
     passbox = tkinter.Entry(bottomframe)
 
     login = tkinter.Button(bottomframe, text=' LOGIN',font='arial 9 bold', command=GET)
-
+    root.wm_iconbitmap(r'C:\Users\sprov\PycharmProjects\pyproject\Project_01\icons\login.jpg')
     heading.pack()
     username.pack()
     userbox.pack()
